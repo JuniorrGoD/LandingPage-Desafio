@@ -1,0 +1,247 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+
+  background: url("/assets/Background.png") no-repeat center top;
+  background-size: cover;
+}
+
+#top-container {
+  padding-bottom: 40px;
+}
+
+.logo img {
+  max-width: 250px;
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+  transition: 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.top-content {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.top-content div {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.top-content h3,
+.info h3 {
+  font-size: 24px;
+  margin: 0px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top-content p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.text-content {
+  margin-top: 30px;
+}
+
+.email-form {
+  background: #ce3636;
+  border: #ffffff solid 3px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.email-form input[type="text"],
+.email-form input[type="email"] {
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  border-radius: 200px;
+  border: 0px;
+  padding: 8px 10px;
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0.55);
+}
+
+.email-form input[type="submit"] {
+  width: 80%;
+  margin: 10px auto 10px auto;
+  display: block;
+  background: #ffffff;
+  border: none;
+  padding: 10px 0px;
+  cursor: pointer;
+  border-radius: 200px;
+  color: #2c2c2c;
+  transition: 0.3s;
+}
+
+.email-form input[type="submit"]:hover {
+  background-color: #ff8201;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.email-form label {
+  display: block;
+}
+
+.agreed {
+  color: #ffffff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#bottom-container {
+  padding: 20px;
+}
+
+.bottom-content {
+  max-width: 600px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0px auto;
+  border-top: solid 4px #ffffff;
+}
+
+.info,
+.advantages {
+  text-align: center;
+  color: rgb(250, 249, 249);
+  overflow: hidden;
+}
+
+.advantages div {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.advantages img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -15px;
+}
+
+.advantages p {
+  text-align: center;
+  color: #ffffff;
+}
+
+#countdown {
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  align-items: center;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.125rem;
+    padding: 0.75rem;
+    cursor: pointer;
+  }
+
+  li span {
+    font-size: 2.37rem;
+  }
+}
+
+footer {
+  height: 23px;
+  padding: 15px;
+  text-align: center;
+  background-color: #000;
+  color: #ffffff;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+}
+
+footer a {
+  text-decoration: none;
+  color: #c3ff00;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 496px) {
+  .logo img {
+    margin-bottom: -40px;
+  }
+
+  .top-content div {
+    width: 100%;
+  }
+
+  .top-content p {
+    margin-bottom: 30px;
+  }
+
+  .email-form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #bottom-container {
+    padding: 1px;
+  }
+
+  li {
+    font-size: 0.8rem;
+    padding: 0.45rem;
+  }
+}
